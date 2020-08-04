@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1082
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqConsoleApp", "LinqConsoleApp\LinqConsoleApp.csproj", "{2059428F-C542-4074-B8D8-0A7DF1382CF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqDataManipulationApp", "LinqDataManipulationApp\LinqDataManipulationApp.csproj", "{CE52FF7D-C936-469D-BFCB-45DFE502BB8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SprocOnlyApp", "SprocOnlyApp\SprocOnlyApp.csproj", "{3264C2EB-37FB-4A2E-B9A1-43743F63DE7E}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2059428F-C542-4074-B8D8-0A7DF1382CF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2059428F-C542-4074-B8D8-0A7DF1382CF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2059428F-C542-4074-B8D8-0A7DF1382CF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2059428F-C542-4074-B8D8-0A7DF1382CF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE52FF7D-C936-469D-BFCB-45DFE502BB8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE52FF7D-C936-469D-BFCB-45DFE502BB8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE52FF7D-C936-469D-BFCB-45DFE502BB8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE52FF7D-C936-469D-BFCB-45DFE502BB8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3264C2EB-37FB-4A2E-B9A1-43743F63DE7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3264C2EB-37FB-4A2E-B9A1-43743F63DE7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3264C2EB-37FB-4A2E-B9A1-43743F63DE7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3264C2EB-37FB-4A2E-B9A1-43743F63DE7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
